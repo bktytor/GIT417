@@ -1,0 +1,102 @@
+* { box-sizing: border-box; }
+
+header, main, footer { display: block; }
+
+body {
+    background-color: #700d12;
+    color: #fbb03b;
+    font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+#wrapper {
+    background-color: #700D12;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+header {
+    color: #fbb03b;
+    text-align: center;
+    padding: 15px;
+    width: auto;
+    height: 120px;
+    margin-bottom: 5px;
+    border-style: solid;
+    border-color: #fbb03b;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+header a:link {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.pizza {
+    font-style: italic;
+}
+
+footer {
+    font-size: 1em;
+    font-style: italic;
+    color: #fbb03b;
+    text-align: center;
+    padding: 1em;
+    border-style: solid;
+    border-color: #fbb03b;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+h1 {
+	  color: #fbb03b;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+h2 {
+    font-size: x-large;
+}
+
+nav {
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.25em;
+    color: #fbb03b;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    font-family: "Open Sans";
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    margin: 20px;
+}
+
+nav a:link { background-color: #700d12; }
+nav a:visited { color: #a1a1a1;}
+nav a:hover {color: #FFFFFF
+}
+nav a:active {border-style: solid; border-color:#fbb03b;}
+
+p {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+main {
+    min-height: 100px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    background-color: #fbb03b;
+}
